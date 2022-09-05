@@ -1,0 +1,141 @@
+body {
+    background-image: url('../img/sativa.jpg');
+}
+
+/*ELEMENTOS DEL JUMBOTRON*/
+.jumbotron{
+    background-color: deepskyblue;
+    color: white;
+}
+
+/*ELEMENTOS DEL PANEL DE CONTENIDO*/
+.panel-heading{
+    background-color: deepskyblue !important;
+    color: white !important;
+}
+
+.panel-body{
+    color: #2b2b2b !important;
+}
+
+/*BARRA DE NAVEGACION*/
+.navbar{
+    background-color: #2b2b2b;
+}
+
+/*ELEMENTOS DE LA BARRA DE NAVEGACION*/
+.navbar-brand:link, .navbar-brand:visited{
+    color: deepskyblue !important;
+}
+
+.navbar-brand:hover, .navbar-brand:active{
+    color: white !important;
+}
+
+/*ENLACES DE LA BARRA DE NAVEGACION*/
+#navbar li a:link, #navbar li a:visited{
+    color: white !important;
+}
+
+#navbar li a:hover, #navbar li a:active{
+    color: deepskyblue !important;
+}
+
+/*PANEL GESTOR DESPLEGABLE*/
+.dropdown-menu {
+    background-color: #2b2b2b;
+}
+/*ENLACES DENTRO DEL GESTOR DESPLEGABLE*/
+.open > a{
+    background-color: #2b2b2b !important;
+}
+
+/*BOTONES DE LAS ENTRADA Y GENERAL*/
+.btn-primary{
+    background-color: deepskyblue !important;
+    border: none;
+}
+
+.btn-primary:hover{
+    background-color: #2b2b2b !important;
+    border: none;
+}
+
+/*CONTENEDORES DE LOS ARTICULOS EN ENTRADA*/
+.contenedor-articulo{
+    background-color: white;
+    padding: 2em;
+}
+
+/*BARRA LATERAL DEL GESTOR*/
+.sidebar{
+    background-color: white;
+}
+
+/*ELEMENTOS DE LOS GESTORES*/
+.gg-elemento{
+    color: white;
+}
+
+.gg-elemento:hover{
+    background-color: #2b2b2b !important;
+    color: deepskyblue !important;
+}
+
+/*ELEMENTOS DE LOS GESTORES Y BARRA LATERAL DEL GESTOR*/
+.sidebar, .gg-elemento{
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+/*GESTORES*/
+#gg-entradas{
+    background-color: deepskyblue;
+}
+
+#gg-comentarios{
+    background-color: #029ac4;
+}
+
+#gg-favoritos{
+    background-color: #394a66;
+}
+
+/*PARTES GESTOR ENTRADAS*/
+.parte-gestor-entradas{
+    background-color: deepskyblue;
+    color: white;
+}
+
+.table-striped>tbody>tr:nth-child(odd)>td,
+.table-striped>tbody>tr:nth-child(odd)>th{
+    background-color: #029ac4;
+}
+
+.table-striped>tbody>tr>td{
+    border: none;
+}
+
+.table>thead>tr>th{
+    border: none;
+}
+
+tbody:before{
+    content: "-";
+    display: block;
+    line-height: 1em;
+    color: transparent;
+}
+
+#ge-boton-nueva-entrada{
+    background-color: #029ac4 !important;
+}
+
+#ge-boton-nueva-entrada:hover{
+    background-color: #2b2b2b !important;
+}
+
+.form-nueva-entrada{
+    background-color: white;
+    padding: 2em;
+}
